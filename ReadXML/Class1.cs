@@ -34,6 +34,7 @@ namespace ReadXML
         [XmlAttribute("name")]
         public string Name { get; set; }
         public int Capacity { get; set; }
+
     }
 
     [XmlRoot("info")]
